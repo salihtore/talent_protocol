@@ -1,3 +1,14 @@
-build/*
-.trace
-.coverage*
+# Move build artifacts
+target/
+build/
+
+# Move dependency lock file 
+Move.lock
+
+# System files
+.DS_Store
+thumbs.db
+
+# IDE settings (Opsiyonel)
+.vscode/
+.idea/
