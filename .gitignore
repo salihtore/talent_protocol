@@ -1,14 +1,27 @@
-# Move build artifacts
-target/
-build/
 
-# Move dependency lock file 
+build/
+target/
 Move.lock
 
-# System files
-.DS_Store
-thumbs.db
 
-# IDE settings (Opsiyonel)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/coverage/
+frontend/.vercel/
+
+frontend/.env*
+
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
+thumbs.db
